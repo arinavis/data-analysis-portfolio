@@ -1,4 +1,4 @@
-# 📚 Module 1: Refreshing Basic Knowledge
+# 📚 Module 1: Restoring Basic Knowledge
 
 This module is aimed at refreshing fundamental skills in **SQL**, **Python**, and **Power BI**, which are essential for further learning and practice in data analysis.
 
@@ -33,8 +33,8 @@ This module is aimed at refreshing fundamental skills in **SQL**, **Python**, an
 ## 🗂 Structure
 
 sql/
-└── SQL_RefreshingBasics.sql
+└── SQL_RestoringBasics.sql
 python/
-└── python_RefreshingBasics.py
+└── python_RestoringBasics.py
 powerbi/
 └── dashboard_screenshot.png
