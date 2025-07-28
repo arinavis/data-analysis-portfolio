@@ -20,7 +20,7 @@ print('_________________Task nr. 2_____________________')
 # Task nr.2. Arithmetic operations
 # Objective: To learn how to perform simple calculations.
 
-# Variable
+# Variables
 a = 8
 b = 5
 
@@ -43,5 +43,20 @@ print('Subtraction:', result)
 # Remainder from division
 result = a % b
 print('Remainder from division:', result)
+
+print('_________________Task nr. 3_____________________')
+
+# Task nr.3. Conditional operators
+# Objective: To learn to perform different actions depending on the conditions.
+
+age = 35
+# age = int( input('Enter your age:') )
+if age >= 65:
+    print('You are retired')
+elif age >= 18:
+    print('You are an adult')
+else:
+    print('You are a minor')
+
 
 
