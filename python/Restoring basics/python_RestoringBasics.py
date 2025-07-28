@@ -1,3 +1,5 @@
+import math
+
 print('_________________Task nr. 1_____________________')
 # Task nr.1. Variables and data types
 # Objective: Learn to store data in variables and display it on the screen.
@@ -87,7 +89,28 @@ while vr <= 5:
     print('Counter:', vr)
     vr += 1
 
+print('_________________Task nr. 5_____________________')
 
+# Task nr.5. Functions
+# Objective: Learn to group code into functions.
+
+# Define function
+def say_hello(name1):
+    print('Hello,', name1)
+
+# Calling the function
+say_hello('Maria')
+say_hello('Michael')
+
+print('---------------------------')
+
+def calculate_area(radius):
+    area = math.pi * radius ** 2 # S = πr²
+    area = round(area)
+    print("Area of a circle:", area)
+
+calculate_area(10)
+calculate_area(12.8)
 
 
 
