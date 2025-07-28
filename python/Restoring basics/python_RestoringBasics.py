@@ -58,5 +58,36 @@ elif age >= 18:
 else:
     print('You are a minor')
 
+print('_________________Task nr. 4_____________________')
+
+# Task nr.4. Loops
+# Objective: Learn to repeat actions.
+
+# For loops
+for i in range(5):
+    print('Iteration number:', i)
+
+print('---------------------------')
+
+for a in range(1, 6):
+    print('Iteration number:', a)
+
+print('---------------------------')
+
+# While loops
+count = 0
+while count < 3:
+    print('Counter:', count)
+    count += 1
+
+print('---------------------------')
+
+vr = 1
+while vr <= 5:
+    print('Counter:', vr)
+    vr += 1
+
+
+
 
 
