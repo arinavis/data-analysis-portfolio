@@ -1,5 +1,6 @@
+print('_________________Task nr. 1_____________________')
 # Task nr.1. Variables and data types
-#Objective: Learn to store data in variables and display it on the screen.
+# Objective: Learn to store data in variables and display it on the screen.
 
 # Create variables
 name = 'Arina'  # Text (str)
@@ -13,3 +14,34 @@ print("Name:", name)
 print("Age:", age)
 print("Height:", height)
 print("Is a junior data analytic", is_junior)
+
+print('_________________Task nr. 2_____________________')
+
+# Task nr.2. Arithmetic operations
+# Objective: To learn how to perform simple calculations.
+
+# Variable
+a = 8
+b = 5
+
+# Addition
+result = a + b
+print('Sum:', result)
+
+# Multiplication
+result = a * b
+print('Product of numbers:', result)
+
+# Division
+result = a / b
+print('Division:', result)
+
+# Subtraction
+result = a - b
+print('Subtraction:', result)
+
+# Remainder from division
+result = a % b
+print('Remainder from division:', result)
+
+
