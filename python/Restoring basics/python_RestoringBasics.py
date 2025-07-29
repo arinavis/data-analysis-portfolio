@@ -112,5 +112,36 @@ def calculate_area(radius):
 calculate_area(10)
 calculate_area(12.8)
 
+print('___________________________String and Lists_________________________')
+
+print('_________________Task nr. 1_____________________')
+
+# Task nr.1. Indexing and Slicing
+name = 'Anna'
+print(name[1])
+print(name[1:3])
+
+print('_________________Task nr. 2_____________________')
+
+# Task nr.2. Basic String Methods
+text = "  Hello, World!  "
+
+# Remove spaces at the beginning and end
+print(text.strip())
+
+# Makes all letters lowercase
+print(text.lower())
+
+# Replaces word
+print(text.replace("World", "Python"))
+
+# Split the string into a list by comma
+print(text.split(","))
+
+print('---------------------------')
+email = 'anna@example.com'
+
+print(email.split('@'))
+
 
 
