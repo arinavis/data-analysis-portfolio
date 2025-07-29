@@ -112,7 +112,7 @@ def calculate_area(radius):
 calculate_area(10)
 calculate_area(12.8)
 
-print('___________________________String and Lists_________________________')
+print('___________________________String_________________________')
 
 print('_________________Task nr. 1_____________________')
 
@@ -143,5 +143,26 @@ email = 'anna@example.com'
 
 print(email.split('@'))
 
+print('___________________________Lists_________________________')
 
+print('_________________Task nr. 1_____________________')
+
+# Taks nr.1. Creation and indexing
+colors = ['red', 'green', 'blue']
+print(colors)
+print(colors[0])
+
+colors[1] = 'yellow'
+print(colors)
+
+print('_________________Task nr. 2_____________________')
+
+# Taks nr.2. Basic List Methods
+
+cities = ['Vilnius', 'Kaunas']
+print(cities)
+cities.append('Klaipeda') # adding element
+print(cities)
+cities.sort() # sorting list
+print(cities)
 
