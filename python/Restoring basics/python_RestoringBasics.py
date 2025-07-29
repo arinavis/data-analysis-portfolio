@@ -166,3 +166,28 @@ print(cities)
 cities.sort() # sorting list
 print(cities)
 
+print('____________Practice. Create a new list for clean data_____________')
+
+data = ['  APPLE  ', 'BANANA', ' cherry ']
+clean_data = [] # Create a new list for clean data
+
+for item in data:
+    clean_item = item.strip().lower() # remove unnecessary spaces and make lowercase
+    clean_data.append(clean_item) # adding cleaned item to new list
+
+print(clean_data)
+
+print('---------------------------')
+
+# shorter option
+data = ['  APPLE  ', 'BANANA', ' cherry ']
+clean_data = [item.strip().lower() for item in data]
+print(clean_data)
+
+print('---------------------------')
+
+text = 'I love my kitty'
+# text = input('Enter some words:')
+words = text.split()
+long_words = [word for word in words if len(word) >= 3]
+print(long_words)
